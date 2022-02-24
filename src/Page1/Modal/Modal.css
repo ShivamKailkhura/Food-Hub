@@ -1,0 +1,80 @@
+/* The Modal (background) */
+.modal {
+  position: fixed;
+  z-index: 999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #f6f6f8;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  top: 30%;
+  left: 0;
+  transform: translate(0%, 0%);
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mainfull {
+  width: 40% !important;
+  height: 30%;
+}
+
+.submit {
+  border-radius: 0 !important;
+  line-height: 0.7 !important;
+  font-weight: normal !important;
+  background: #1abe9c !important;
+  border: 1px solid #1abe9c !important;
+}
+
+.markermin {
+  background: #1abe9c;
+  padding: 11px;
+  color: #ffff;
+}
+
+.modal-backdrop {
+  z-index: 0;
+}
+
+.image-product {
+  height: auto;
+}
+
+.test-div {
+  border: 2px solid #ccc;
+  /* width:600px; */
+}
+.test-div-inner {
+  padding-bottom: 100%;
+  background: #eee;
+  height: 0;
+  position: relative;
+}
+.test-image {
+  width: 100%;
+  display: block;
+}

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap");
+
+.login {
+  margin: 0;
+  padding: 0;
+  margin-top: 5rem;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.login__container {
+  height: 70vh;
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Readex Pro", sans-serif;
+}
+p {
+  width: fit-content;
+  height: fit-content;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.25rem;
+
+  border-radius: 3rem;
+  padding: 7rem 2.5rem;
+  transition: all 0.25s ease-out;
+}
+
+.login__container h2 {
+  font-family: "Readex Pro", sans-serif;
+}
+.login__container form input {
+  font-family: "Readex Pro", sans-serif;
+
+  border-radius: 2rem;
+  font-size: 2.25rem;
+}
+
+.login__signInButton {
+  position: relative;
+  width: max-content;
+  margin: 0 auto;
+  font-family: "Readex Pro", sans-serif;
+  margin-top: 4rem;
+  font-size: 2.25rem;
+  border-radius: 2.5rem;
+}
+.login__registerButton {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 2.25rem;
+  border-radius: 3rem;
+}
+.Burger {
+  position: absolute;
+  width: 48rem;
+  height: 36rem;
+  z-index: -1;
+  left: 10%;
+  right: 0;
+  animation: Float 2s ease-in-out 0.1s infinite alternate;
+}
+@keyframes Float {
+  100% {
+    left: 0;
+    transform: rotate(35deg);
+  }
+}
+form:hover,
+form:focus-within {
+  backdrop-filter: blur(5px);
+  background-color: rgba(104, 218, 180, 0.1);
+  box-shadow: 0.1rem 0.1rem 0.25rem 0rem rgb(182, 182, 182);
+}
+.Pizza {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  left: 65%;
+
+  z-index: -10;
+  animation: Float1 2s ease-in-out 0.1s infinite alternate;
+}
+@keyframes Float1 {
+  100% {
+    left: 55%;
+    transform: rotate(-35deg) translateY(2rem);
+  }
+}
