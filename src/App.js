@@ -18,6 +18,7 @@ import Dinner from "./Associates/Dinner/dinner";
 import Contact from "./Contact/contact";
 import Payment from "./Payment/Payment";
 import Orders from "./Orders/Orders";
+import ScrollToTop from "./ScrollToTop";
 
 import Login from "./Page1/Login/Login";
 import { useStateValue } from "./StateProvider";
@@ -54,6 +55,7 @@ function App() {
 
   return (
     <Router className="site">
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route exact path="/" element={<PageOne />} />

@@ -4,7 +4,7 @@ export const Items = [
     title: "Chota",
     price: "100",
     Image2:
-      "https://chardontogether.com/wp-content/uploads/2020/12/Best-Homemade-Hot-Chocolate-EVER-FG.jpg",
+      "https://cleobuttera.com/wp-content/uploads/2015/12/spoon-drop-wl-720x720.jpg",
   },
   {
     id: 25,
