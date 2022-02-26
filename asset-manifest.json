@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Food-Hub/static/css/main.679736fe.chunk.css",
+    "main.js": "/Food-Hub/static/js/main.ed8204cf.chunk.js",
+    "main.js.map": "/Food-Hub/static/js/main.ed8204cf.chunk.js.map",
+    "runtime-main.js": "/Food-Hub/static/js/runtime-main.1d533a64.js",
+    "runtime-main.js.map": "/Food-Hub/static/js/runtime-main.1d533a64.js.map",
+    "static/js/2.9ffad2a8.chunk.js": "/Food-Hub/static/js/2.9ffad2a8.chunk.js",
+    "static/js/2.9ffad2a8.chunk.js.map": "/Food-Hub/static/js/2.9ffad2a8.chunk.js.map",
+    "static/js/3.9a3db4f9.chunk.js": "/Food-Hub/static/js/3.9a3db4f9.chunk.js",
+    "static/js/3.9a3db4f9.chunk.js.map": "/Food-Hub/static/js/3.9a3db4f9.chunk.js.map",
+    "index.html": "/Food-Hub/index.html",
+    "static/css/main.679736fe.chunk.css.map": "/Food-Hub/static/css/main.679736fe.chunk.css.map",
+    "static/js/2.9ffad2a8.chunk.js.LICENSE.txt": "/Food-Hub/static/js/2.9ffad2a8.chunk.js.LICENSE.txt",
+    "static/media/Burger.07827802.png": "/Food-Hub/static/media/Burger.07827802.png",
+    "static/media/Pizza.7dc2517f.png": "/Food-Hub/static/media/Pizza.7dc2517f.png",
+    "static/media/PngItem_188635.fe93a0d3.png": "/Food-Hub/static/media/PngItem_188635.fe93a0d3.png",
+    "static/media/burger-removebg-preview.07827802.png": "/Food-Hub/static/media/burger-removebg-preview.07827802.png",
+    "static/media/client_logo.76a75fa1.png": "/Food-Hub/static/media/client_logo.76a75fa1.png",
+    "static/media/gmail.d765005c.png": "/Food-Hub/static/media/gmail.d765005c.png",
+    "static/media/phone-call.20a0ed42.png": "/Food-Hub/static/media/phone-call.20a0ed42.png",
+    "static/media/whatsapp.18020ace.png": "/Food-Hub/static/media/whatsapp.18020ace.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d533a64.js",
+    "static/js/2.9ffad2a8.chunk.js",
+    "static/css/main.679736fe.chunk.css",
+    "static/js/main.ed8204cf.chunk.js"
+  ]
+}
