@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script>
-      $(document).load().scrollTop(0);
-    </script>
     <title>Food Hub</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,29 +15,6 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-
-    <script>
-      $(document).ready(function () {
-        var url = window.location.href;
-        console.log(url);
-        if (url.indexOf("#") < 0) {
-          window.location.replace(url + "#");
-        } else {
-          window.location.replace(url);
-        }
-      });
-    </script>
-    <script>
-      $(window).on("beforeunload", function () {
-        $("body").hide();
-        $(window).scrollTop(0);
-      });
-    </script>
-    <script>
-      $(document).ready(function () {
-        $(this).scrollTop(0);
-      });
-    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
