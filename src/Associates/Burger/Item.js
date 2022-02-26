@@ -20,24 +20,24 @@ const Item = ({ booke }) => {
   };
 
   return (
-    <div class="col-lg-4 col-md-4 col-xs-6 product-item text-center mb-3">
-      <div class="product-thumb test-div">
-        <a class="test-div-inner product-clicked" href="#">
-          <div class="badges"></div>
+    <div className="col-lg-4 col-md-4 col-xs-6 product-item text-center mb-3">
+      <div className="product-thumb test-div">
+        <a className="test-div-inner product-clicked" href="#">
+          <div className="badges"></div>
 
           <img
             src={Image2}
             alt=""
-            class="product_list_image test-image"
+            className="product_list_image test-image"
             height="1000"
             width="1000"
           />
         </a>
       </div>
-      <div class="product-info">
+      <div className="product-info">
         <button
           onClick={addToBasket}
-          class="add-to-cart add-to-cart-btn in-stock bag-btn"
+          className="add-to-cart add-to-cart-btn in-stock bag-btn"
           data-page="listing"
           data-id={id}
           style={{
@@ -50,13 +50,13 @@ const Item = ({ booke }) => {
         </button>
 
         <a>
-          <h2 class="title">{title}</h2>
-          <span class="price">
+          <h2 className="title">{title}</h2>
+          <span className="price">
             <del>
-              ₹<span class="pack-discount-price">210.00</span>
+              ₹<span className="pack-discount-price">210.00</span>
             </del>
             <ins>
-              ₹<span class="pack-price">{price}</span>{" "}
+              ₹<span className="pack-price">{price}</span>{" "}
             </ins>
           </span>
         </a>

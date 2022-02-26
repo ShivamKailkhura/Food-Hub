@@ -13,16 +13,16 @@ import logo6 from "./phone-call.png";
 function contact() {
   return (
     <div className="born">
-      <div class="logo">
+      <div className="logo">
         <img
           src={logo4}
           alt="Logo"
           style={{ height: "100px", width: "134px" }}
         />
       </div>
-      <div class="headline">Contact Us</div>
-      <div class="container">
-        <div class="box burger">
+      <div className="headline">Contact Us</div>
+      <div className="container">
+        <div className="box burger">
           <img
             src={logo2}
             style={{
@@ -32,8 +32,8 @@ function contact() {
             srcset=""
           />
         </div>
-        {/* <div class="box coke">{<img src={logo3} alt="" srcset="" />}</div> */}
-        <div class="box b1">
+        {/* <div className="box coke">{<img src={logo3} alt="" srcset="" />}</div> */}
+        <div className="box b1">
           <img
             src={logo5}
             alt="Gmail"
@@ -46,7 +46,7 @@ function contact() {
             FoodHub@gmail.com
           </a>
         </div>
-        <div class="box b2">
+        <div className="box b2">
           <img
             src={logo1}
             alt="Whatsapp"
@@ -56,13 +56,13 @@ function contact() {
             +91 ##########
           </a>
         </div>
-        <div class="box b3">
+        <div className="box b3">
           <img
             src={logo6}
             style={{ height: "100px", width: "100px" }}
             alt="Phone"
           />
-          <div class="num" style={{ textAlign: "center" }}>
+          <div className="num" style={{ textAlign: "center" }}>
             +91 ##########
           </div>
         </div>

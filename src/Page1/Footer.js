@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 function Footer() {
-  window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-  };
   return (
     <div>
       <footer className="footer">
@@ -16,12 +13,12 @@ function Footer() {
                 alt=""
               />
 
-              {/* <div class="footer-social">
-							<a href="https://www.instagram.com/storiafoods" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
-							<a href=" https://twitter.com/storiafoods/" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
-							 <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-							<a href="https://www.instagram.com/storiafoods/" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.youtube.com/channel/UC65SDDRJScUEFNnxLUsjtAA" data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube"><i class="fa fa-youtube"></i></a>
+              {/* <div className="footer-social">
+							<a href="https://www.instagram.com/storiafoods" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i className="fa fa-facebook"></i></a>
+							<a href=" https://twitter.com/storiafoods/" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><i className="fa fa-twitter"></i></a>
+							 <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i className="fa fa-pinterest"></i></a>
+							<a href="https://www.instagram.com/storiafoods/" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i className="fa fa-instagram"></i></a>
+							<a href="https://www.youtube.com/channel/UC65SDDRJScUEFNnxLUsjtAA" data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube"><i className="fa fa-youtube"></i></a>
 						</div> */}
               <div className="position-absolute bottom-50 end-0">
                 <button className="btn-danger ">

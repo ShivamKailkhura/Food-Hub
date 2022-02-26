@@ -44,7 +44,7 @@ function Header() {
                 </a>
                 <button
                   type="button"
-                  class="btn btn-danger"
+                  className="btn btn-danger"
                   data-bs-toggle="popover"
                   title="Welcome..."
                   data-bs-content="We are dedicated 24/7 to satisfy your tastebuds without compromising on ur health."
@@ -118,13 +118,13 @@ function Header() {
                   </ul>
                 </nav>
                 <div className="btn-wrap">
-                  <div class="cart-btn">
-                    <span class="nav-icon">
+                  <div className="cart-btn">
+                    <span className="nav-icon">
                       <Link to="/cart" style={tile}>
-                        <i class="fas fa-cart-plus">Cart</i>
+                        <i className="fas fa-cart-plus">Cart</i>
                       </Link>
                     </span>
-                    <div class="cart-items" style={tile}>
+                    <div className="cart-items" style={tile}>
                       {basket.length}
                     </div>
                   </div>

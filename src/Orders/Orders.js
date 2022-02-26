@@ -22,9 +22,9 @@ function Orders() {
   var dayName = days[d.getDay()];
 
   return (
-    <div class="section pt-3 pb-3">
+    <div className="section pt-3 pb-3">
       <div
-        class="alert alert-success"
+        className="alert alert-success"
         style={{ backgroundColor: "green" }}
         role="alert"
       >
@@ -32,12 +32,12 @@ function Orders() {
         shoulders.
       </div>
 
-      <h2 class="text-center section-title pb-3">Your Orders</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="product-grid">
-              <div class="col-lg-12">
+      <h2 className="text-center section-title pb-3">Your Orders</h2>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="product-grid">
+              <div className="col-lg-12">
                 <div className="payment__priceContainer">
                   <CurrencyFormat
                     renderText={(value) => <h3> Order Total: {value}</h3>}
@@ -64,7 +64,7 @@ function Orders() {
                     </p>
                   </div>
                 </div>
-                <div class="page-center mt-5">
+                <div className="page-center mt-5">
                   <div className="payment__section">
                     <div className="payment__items">
                       {basket.map((item) => (

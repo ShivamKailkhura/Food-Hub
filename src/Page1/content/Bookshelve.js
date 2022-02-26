@@ -5,27 +5,27 @@ import "./style.css";
 function Bookshelve() {
   return (
     <div id="main">
-      <div class="section pt-4 pb-0" style={{ background: "#f7f7f7" }}>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="text-center mb-1 section-pretitle">Discover</div>
-              <h2 class="text-center section-title pb-3">Our category</h2>
-              <div class="organik-seperator center">
-                <span class="sep-holder">
-                  <span class="sep-line"></span>
+      <div className="section pt-4 pb-0" style={{ background: "#f7f7f7" }}>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="text-center mb-1 section-pretitle">Discover</div>
+              <h2 className="text-center section-title pb-3">Our category</h2>
+              <div className="organik-seperator center">
+                <span className="sep-holder">
+                  <span className="sep-line"></span>
                 </span>
-                <div class="sep-icon">
-                  <i class="organik-flower"></i>
+                <div className="sep-icon">
+                  <i className="organik-flower"></i>
                 </div>
-                <span class="sep-holder">
-                  <span class="sep-line"></span>
+                <span className="sep-holder">
+                  <span className="sep-line"></span>
                 </span>
               </div>
             </div>
           </div>
-          <div id="forun" class="row">
-            <div class="product-grid masonry-grid-post">
+          <div id="forun" className="row">
+            <div className="product-grid masonry-grid-post">
               <section>
                 {Items.map((meals) => (
                   <Item key={meals.id} booke={meals} />
