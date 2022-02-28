@@ -34,7 +34,7 @@ const Item = ({ booke }) => {
           />
         </a>
       </div>
-      <div className="product-info">
+      {/* <div className="product-info">
         <button
           onClick={addToBasket}
           className="add-to-cart add-to-cart-btn in-stock bag-btn"
@@ -49,6 +49,46 @@ const Item = ({ booke }) => {
           Add To Cart
         </button>
 
+        <a>
+          <h2 className="title">{title}</h2>
+          <span className="price">
+            <del>
+              ₹<span className="pack-discount-price">210.00</span>
+            </del>
+            <ins>
+              ₹<span className="pack-price">{price}</span>{" "}
+            </ins>
+          </span>
+        </a>
+      </div> */}
+      <div className="product-info">
+        <div
+          class="add-to-cart add-to-cart-btn in-stock  "
+          onClick={addToBasket}
+          data-page="listing"
+          data-product-id="13"
+          style={{
+            backgroundColor: "#06904d",
+            padding: "7px 0px 7px 0px",
+          }}
+        >
+          <a
+            href="#"
+            data-toggle="tooltip"
+            data-placement="top"
+            title=""
+            style={{ color: "white" }}
+            data-original-title="Add to cart"
+          >
+            {" "}
+            <i
+              class="fa fa-shopping-bag"
+              aria-hidden="true"
+              style={{ paddingRight: "15px" }}
+            ></i>
+            Add To Cart
+          </a>
+        </div>
         <a>
           <h2 className="title">{title}</h2>
           <span className="price">

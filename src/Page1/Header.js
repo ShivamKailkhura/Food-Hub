@@ -13,7 +13,7 @@ function Header() {
       <header
         id="header"
         className="header header-desktop header-2 header-355"
-        style={{ backgroundColor: "black" }}
+        style={{ backgroundColor: "black", position: "fixed" }}
       >
         <div className="top-search">
           <div className="container">
@@ -69,11 +69,6 @@ function Header() {
                     <li className="">
                       <a href="#" style={tile}>
                         About Us
-                      </a>
-                    </li>
-                    <li className="">
-                      <a href="#" style={tile}>
-                        Recipes
                       </a>
                     </li>
                     <li className="">

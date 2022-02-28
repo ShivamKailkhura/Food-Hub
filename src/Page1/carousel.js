@@ -46,8 +46,30 @@ function carousel() {
             <div className="col">
               <img
                 className="img-fluid"
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ptyhgqzmgu2npqlczm79"
+                src="https://images.ctfassets.net/3s5io6mnxfqz/28dLPwdzqfFybT4aEXMrao/46badfd69b06b45cd4bc3784c6f1c202/AdobeStock_66057172.jpeg?fm=jpg&w=800&fl=progressive"
+                // src="https://funcooking.co.uk/wp-content/uploads/2020/04/Aloo-Samosa-80.jpg"
                 alt="Image 8"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="carousel-item">
+          <div className="row">
+            <div className="col">
+              <img
+                className="img-fluid"
+                style={{ bottom: "600px" }}
+                src="https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg"
+                alt="Image 1"
+              />
+            </div>
+            <div className="col">
+              <img
+                className="img-fluid"
+                style={{ bottom: "600px" }}
+                src="https://assets.gqindia.com/photos/60f932bbbc55a78132763da9/master/pass/Hundo%20Pizza.jpg"
+                alt="Image 1"
               />
             </div>
           </div>

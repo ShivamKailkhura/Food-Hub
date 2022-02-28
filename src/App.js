@@ -5,6 +5,7 @@ import Header from "./Page1/Header";
 import Footer from "./Page1/Footer";
 import Copyright from "./Page1/Copyright";
 import Cart from "./CART/Cart";
+import Gap from "./Page1/Gap";
 
 import PageOne from "./Page1/PageOne";
 import Burger from "./Associates/Burger/burger";
@@ -57,6 +58,7 @@ function App() {
     <Router className="site">
       <ScrollToTop />
       <Header />
+      <Gap />
       <Routes>
         <Route exact path="/" element={<PageOne />} />
         <Route exact path="/cart" element={<Cart />} />
