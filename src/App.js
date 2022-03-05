@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Page1/Header";
+import Top from "./Page1/Top/top";
 
 import Footer from "./Page1/Footer";
 import Copyright from "./Page1/Copyright";
@@ -59,6 +60,7 @@ function App() {
       <ScrollToTop />
       <Header />
       <Gap />
+      <Top />
       <Routes>
         <Route exact path="/" element={<PageOne />} />
         <Route exact path="/cart" element={<Cart />} />

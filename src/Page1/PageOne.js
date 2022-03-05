@@ -1,5 +1,5 @@
 import React from "react";
-import Top from "./Top/top";
+
 import Modal from "./Modal/Modal";
 import Bookshelve from "./content/Bookshelve";
 import Carousel from "./carousel";
@@ -9,7 +9,6 @@ function PageOne() {
   return (
     <div className="site">
       <Modal />
-      <Top />
       <Carousel />
       <Bookshelve />
       <Clients />

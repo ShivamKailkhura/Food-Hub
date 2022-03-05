@@ -13,7 +13,11 @@ function Header() {
       <header
         id="header"
         className="header header-desktop header-2 header-355"
-        style={{ backgroundColor: "black", position: "fixed" }}
+        style={{
+          backgroundColor: "black",
+          position: "fixed",
+          marginBottom: "200px",
+        }}
       >
         <div className="top-search">
           <div className="container">

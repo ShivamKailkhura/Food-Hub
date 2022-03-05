@@ -39,7 +39,7 @@ function Login() {
   };
 
   return (
-    <div className="login">
+    <div className="login" style={{ marginBottom: "50px" }}>
       <div className="login__container">
         <h2>Sign-in</h2>
         <img className="Burger" src={Burger} alt="A Floating Burger" />

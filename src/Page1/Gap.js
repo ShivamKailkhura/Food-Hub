@@ -6,18 +6,21 @@ function Gap() {
   const [{ basket }, dispatch] = useStateValue();
 
   return (
-    <div className="container">
+    <div
+      className="container"
+      style={{ display: "flex", flexDirection: "row" }}
+    >
       <div className="row">
         <div className="col-md-3">
           <Link to="/">
-            {/* <a href="#" id="logo">
+            <a href="#" id="logo">
               <img
                 className="logo-image logo-image1"
                 src="https://cleancreations.com/data/config/client_logo.png?md=f341c123680491a1ca69dd7a67ca190e"
                 alt="Organik Logo"
               />
-            </a> */}
-            <button
+            </a>
+            {/* <button
               type="button"
               className="btn btn-danger"
               data-bs-toggle="popover"
@@ -25,7 +28,7 @@ function Gap() {
               data-bs-content="We are dedicated 24/7 to satisfy your tastebuds without compromising on ur health."
             >
               FOOD HUB
-            </button>
+            </button> */}
           </Link>
         </div>
 
